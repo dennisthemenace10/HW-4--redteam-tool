@@ -1,0 +1,21 @@
+everything is done in command Prompt
+
+Before running the metasploitable make sure kali and supporting apps are updated
+Sudo apt update
+sudo apt full-upgrade
+
+if Metasploitable is not install, install it using the below command.
+install Metasploitable
+sudo apt install Metasploit-framework
+
+or update it if its outdated
+msfupdate
+
+lastly configure metasploitable 
+sudo systemctrl enable –now postgresql
+sudo systemctrl status postgrepsql
+
+
+** ****change the target Ip address in script before running it.********
+
+
